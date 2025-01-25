@@ -1,0 +1,116 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+body.dark-theme {
+    background-color: #333; /* Темный фон */
+    color: white; /* Белый текст */
+}
+
+header {
+    background: linear-gradient(90deg, #4a90e2, #9013fe);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+header.dark-theme {
+    background: linear-gradient(90deg, #282c34, #6c757d); /* Темный градиент */
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+.main-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #f1f1f1;
+    color: #333;
+}
+
+footer.dark-theme {
+    background-color: #555;
+    color: #ccc;
+}
+.fade-in {
+            opacity: 0;
+            transition: opacity 1s ease-in;
+        }
+        .visible {
+            opacity: 1;
+        }
+        .student-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .student-photo {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            max-width: 150px;
+            height: auto;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .student-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+		.fade-in {
+            opacity: 0;
+            transition: opacity 1s ease-in;
+        }
+        .visible {
+            opacity: 1;
+        }
+        .student-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px auto;
+            max-width: 80%;
+        }
+        .student-bio {
+            flex: 1;
+            padding: 20px;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+        .student-photo {
+            flex: 0 0 150px;
+            max-width: 150px;
+            margin-left: 20px;
+            border-radius: 50%;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
